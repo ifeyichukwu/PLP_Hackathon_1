@@ -6,7 +6,7 @@ This is a personal portfolio website designed to showcase my skills, educational
 
 ## 🛠️ Technologies Used
 
-### HTML5: For structuring the web pages.
+#### HTML5: For structuring the web pages.
 
 ### CSS3: For styling and layout design.
 
