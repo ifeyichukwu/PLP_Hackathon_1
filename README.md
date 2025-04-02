@@ -6,29 +6,29 @@ This is a personal portfolio website designed to showcase my skills, educational
 
 ## 🛠️ Technologies Used
 
-#### HTML5: For structuring the web pages.
+HTML5: For structuring the web pages.
 
-### CSS3: For styling and layout design.
+CSS3: For styling and layout design.
 
-### Flexbox & Grid: For responsive and organized content placement.
+Flexbox & Grid: For responsive and organized content placement.
 
-### Animations & Transitions: For smooth UI interactions.
+Animations & Transitions: For smooth UI interactions.
 
 ## 🚀 Features
 
-### Navigation Bar: User-friendly menu for easy access to different sections.
+Navigation Bar: User-friendly menu for easy access to different sections.
 
-### Programming Languages Section: Highlights my coding skills.
+Programming Languages Section: Highlights my coding skills.
 
-### About Me: Brief introduction and personal information.
+About Me: Brief introduction and personal information.
 
-### Educational Background: Display of academic qualifications.
+Educational Background: Display of academic qualifications.
 
-### Interests: Showcasing hobbies and professional interests.
+Interests: Showcasing hobbies and professional interests.
 
-### Projects: A gallery of my notable works with links.
+Projects: A gallery of my notable works with links.
 
-### Contact Form: A simple form to get in touch.
+Contact Form: A simple form to get in touch.
 
 ## 📸 Preview
 
@@ -44,21 +44,21 @@ Add a screenshot or GIF of your website here.
 
 ## 📖 Usage
 
-### Clone the repository:
+Clone the repository:
 
-git clone https://github.com/your-username/portfolio-website.git
+#### git clone https://github.com/your-username/portfolio-website.git
 
-### Open index.html in a web browser.
+Open index.html in a web browser.
 
-### Customize the content as needed.
+Customize the content as needed.
 
 ## 📝 Future Improvements
 
-### Improve responsiveness for smaller screens.
+Improve responsiveness for smaller screens.
 
-### Add more interactivity using JavaScript.
+Add more interactivity using JavaScript.
 
-### Optimize performance and accessibility.
+Optimize performance and accessibility.
 
 ## 📬 Contact
 
