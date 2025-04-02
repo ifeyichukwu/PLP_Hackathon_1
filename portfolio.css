@@ -1,0 +1,283 @@
+/* General styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(167, 1, 111);
+}
+
+h2{
+    margin: 10px;
+}
+
+/* Header Section */
+header {
+    min-height: 70px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: white;
+    justify-content: space-between;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+}
+
+nav li {
+    padding: 10px 20px;
+}
+
+nav a {
+    color: darkcyan;
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+/* Body Styles */
+
+/*Programming Languages Section*/
+#programming_languages ul{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#programming_languages ul li{
+    flex: 1;
+    text-align: center;
+    list-style: none;
+    color: darkcyan;
+    background: whitesmoke;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+/*About Section*/
+
+#about div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: white solid 10px;
+    border-radius: 10px;
+    color: darkcyan;
+}
+
+#about div p{
+    flex: 3;
+    margin: 10px;
+    padding: 20px;
+    font-size: larger;
+    text-decoration: solid;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+
+}
+
+#about div img{
+    flex: 1;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    text-decoration: solid;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 5px solid aliceblue;
+}
+
+
+
+/* Educational Background */
+#educational_background h3 {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    border: 5px solid whitesmoke;
+}
+
+.container div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: large;
+    gap: 20px;
+    padding: 0;
+}
+
+.container div ul li {
+    list-style: none;
+    padding: 30px;
+    background-color: rgba(214, 214, 214, 0.85);
+    border-radius: 60px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+    font-weight: 400;
+    border: 5px solid rgba(190, 2, 43, 0.41);
+    text-align: center;
+    width: 300px;
+    min-width: fit-content;
+}
+
+/* Interests Section */
+#interests{
+    margin: 10px;
+}
+
+.interests{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.interests div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0 .2%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px dashed whitesmoke;
+}
+
+.interests img{
+    width: 300px;
+    height: 200px;
+    border-radius: 300px;
+}
+    
+.interests p{
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Bungee Tint', 'Open Sans';
+    font-weight: 400;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projects div {
+    width: 30%;
+    margin: 0 .2%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px dashed white;
+    height: 170px;
+}
+
+#projects a{
+    text-decoration: none;
+    color: darkcyan;
+    padding: 3px 15px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#projects a:hover{
+    opacity: .7;
+}
+
+/* Contact Information */
+#contact_info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+}
+
+#contact_info .container{
+    margin: 10px;
+    padding: 5px 10px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.form, .info {
+    flex: 1;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(163, 0, 54);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: rgb(163, 0, 54);
+}
+
+form input{
+    border-radius: 5px;
+    height: 25px;
+}
+
+button{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(163, 0, 54);
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(163, 0, 54);
+    opacity: .7;
+}
+
+.info img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.info .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
